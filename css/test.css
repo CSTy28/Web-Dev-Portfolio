@@ -1,0 +1,20 @@
+.back {
+    background-image: url(../images/computers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+    height: 100vh;
+    
+}
+
+.op {
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    background: opacity(.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
